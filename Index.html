@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">   
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logo.svg" alt="Logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedor_cajatexto">
+                <textarea placeholder="Ingresar el texto aquí" class="cajatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="img/exclamacion.jpg" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedor_botones">
+                <input type="button" class="btn_encriptar" value="Encriptar">
+                <input type="button" class="btn_desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedor_persona">
+                <img src="img/persona.jpg" alt="persona">
+            </div>
+            <div class="contenedor_parrafo">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingrese el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="contenedor_copiar">
+                <input type="button" class="btn_copiar" value="Copiar">
+            </div>
+            <div class="contenedor_resultado">
+                <p class="texto_resultado"></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p class="copyright">&copy; Copyright 2024 - Encriptador de Texto - Desarrollado por Pedro G</p>
+        <a href="#" rel="">
+            <img src="img/linkedin.svg" alt="Logo Linkedin" class="linked">
+        </a>
+        <a href="#" rel="">
+            <img src="img/github.svg" alt="Logo Github" class="git">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
